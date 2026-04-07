@@ -9,6 +9,6 @@ public class CuentaBancaria {
        System.out.println("estado de la cuenta:");
        System.out.println("Numero:" + numero);
        System.out.println("Titular:" + titular);
-       System.out.println("Saldo:" + saldo + "$");
+       System.out.println("Saldo:" + "$" + saldo);
 }
 }
