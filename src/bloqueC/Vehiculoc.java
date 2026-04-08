@@ -18,7 +18,7 @@ public void acelerar() {
     velocidadActual = velocidadActual + 10;
   }
 }
-class Main {
+class MainVehiculoc {
     public static void main(String[] args) {
         // primer objeto
         Vehiculoc x1 = new Vehiculoc();
@@ -41,4 +41,3 @@ class Main {
             x2.mostrarEstado();
     }
 }
-
