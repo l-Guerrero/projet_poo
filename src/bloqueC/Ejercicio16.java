@@ -18,7 +18,7 @@ public class Ejercicio16 {
             stock = stock - cantidad;
             System.out.println("Venta exitosa: Se vendieron " + cantidad + " " + nombre + ".");
         } else {
-            System.out.println(" Error: Stock insuficiente para " + nombre + ", solo hay " + stock);
+            System.out.println(" Error: Stock insuficiente para " + nombre + ", solo hay " + stock + ".");
         }
     }
 
