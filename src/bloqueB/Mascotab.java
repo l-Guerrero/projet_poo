@@ -9,7 +9,7 @@ public class Mascotab {
         System.out.println("imformacion de la mascota");
         System.out.println("Nombre:" + nombre);
         System.out.println("Especie:" + especie);
-        System.out.println("Edad:" + edad + "años");
+        System.out.println("Edad:" + edad + " " + "años");
     }
 }
 
@@ -25,14 +25,13 @@ class MainMascotab {
 
         unaMascota.edad = 1;
         unaMascota.mostrarMascota();
-        // estado 1 cambio
-        System.out.println ("Cambio de edad 1");
-
+        // estado 1 de cambio
+        System.out.println("Cambio de edad 1");
         unaMascota.edad = 6;
         unaMascota.mostrarMascota();
+
         // estado 2 de cambio
         System.out.println("Cambio de edad 2");
-
         unaMascota.edad = 10;
         unaMascota.mostrarMascota();
 
