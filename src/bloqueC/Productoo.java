@@ -1,9 +1,20 @@
 package bloqueC;
 
-public class Ejercicio16 {
+public class  Productoo {
     String nombre;
     double precio;
     int stock;
+
+    // Ejercicio 23 y 26
+    public Productoo() {
+
+    }
+    // Ejercicio 24 y 26
+    public Productoo(String nombre, double precio, int stock) {
+        this.nombre = nombre;
+        this.precio = precio;
+        this.stock = stock;
+    }
 
     public void mostrarProducto() {
         System.out.println("Detalles del producto:");
@@ -29,26 +40,34 @@ public class Ejercicio16 {
         System.out.println(" Ingreso de " + nombre + ": Se agregaron " + cantidad + " Unidades al inventario.");
     }
 }
-class MainEjercicio16 {
+class MainProductoo {
     public static void main(String[] args) {
 
         // Objeto 1
-        Ejercicio16 m1 = new Ejercicio16();
+        Productoo m1 = new Productoo();
         m1.nombre = "mesas";
         m1.precio = 350000;
         m1.stock = 25;
 
         // Objeto2
-        Ejercicio16 c2 = new Ejercicio16();
+        Productoo c2 = new Productoo();
         c2.nombre = "cuadernos";
         c2.precio = 2500;
         c2.stock = 80;
 
         // Objeto3
-        Ejercicio16 b3 = new Ejercicio16();
+        Productoo b3 = new Productoo();
         b3.nombre = "bicicletas";
         b3.precio = 150000;
         b3.stock = 15;
+
+        // Ejercicio 25 y 26
+            Productoo tv = new Productoo();
+            tv.nombre = "Televisor 4k";
+            tv.precio = 120000;
+            tv.stock = 26;
+            // con parametros
+        Productoo tec = new Productoo("teclado", 86000, 35);
 
         // cambios en el inventario
         System.out.println("Movimientos en el iventario");
@@ -61,6 +80,8 @@ class MainEjercicio16 {
         m1.mostrarProducto();
         c2.mostrarProducto();
         b3.mostrarProducto();
+        tv.mostrarProducto();
+        tec.mostrarProducto();
     }
 }
 
