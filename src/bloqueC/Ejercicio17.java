@@ -34,6 +34,11 @@ public class Ejercicio17 {
             Alumno.mostrarInfo();
         }
     }
+    // Ejercicio 19
+   /* Estudiante es una clase porque es la definición de los datos que todos
+   los estudiantes comparten, es decir, son solo instrucciones estáticas que el programa
+   solo lee y no puede cambiar y est1 es un objeto porque es un alumno específico con nombre propio
+    que el programa puede manejar, hacer cambios o mostrar sus datos en pantalla */
 
 
 
