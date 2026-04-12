@@ -3,8 +3,12 @@ package bloqueD;
 public class Libro {
         String titulo;
         String autor;
+
+    // Aqui está el constructor vacio que pid el ejercicio23
+    public Libro(){
     }
-    class MainLibro{
+}
+       class MainLibro{
         public static void main(String[]args) {
 
             Libro lb1 = new Libro();
