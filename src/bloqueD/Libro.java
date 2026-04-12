@@ -17,6 +17,15 @@ public class Libro {
        class MainLibro{
         public static void main(String[]args) {
 
+            // Ejercicio 25 - objeto con cada constructor
+            // constructor vacio
+            Libro libroVacio = new Libro();
+            libroVacio.titulo = "La casa grande";
+            libroVacio.autor = "Alvaro Cepeda Samudio";
+
+            // constructor con parametros
+            Libro libroConParametros = new Libro("La vorágine", "José Eustasio Rivera");
+
             Libro lb1 = new Libro();
             lb1.titulo = "El principito";
             lb1.autor = " Antonie de Saint-Exupéry";
@@ -34,7 +43,6 @@ public class Libro {
             lb4.autor = "Ernest Hemingway";
 
             // usar parametros
-            // mismo autor diferente titulo
             Libro lb5 = new Libro("El amor en los tiempos del cólera", "Gabriel Garcia Marquez");
             Libro lb6 = new Libro ("Crónica de una muerte anunciada", "Gabriel Garcia Marquez");
 
@@ -44,6 +52,8 @@ public class Libro {
             System.out.println("4: " + lb4.titulo + " - " + lb4.autor);
             System.out.println("5: " + lb5.titulo + " - " + lb5.autor);
             System.out.println("6: " + lb6.titulo + " - " + lb6.autor);
+            System.out.println("7: " + libroVacio.titulo + " - " + libroVacio.autor);
+            System.out.println("8: " + libroConParametros.titulo + " - " + libroConParametros.autor);
 
         /* La clase funciona como una base o plantilla porque solo define qué datos debe tener
         cualquier libro para existir en el sistema. Los objetos son los casos reales porque son versiones
