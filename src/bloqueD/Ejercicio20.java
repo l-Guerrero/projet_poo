@@ -1,23 +1,23 @@
 package bloqueD;
 
-public class Libro {
+public class Ejercicio20 {
         String titulo;
         String autor;
     }
-    class mainLibro {
+    class MainEjercicio20 {
         public static void main(String[] args) {
             // objeto 1
-            Libro libro1 = new Libro();
+            Ejercicio20 libro1 = new Ejercicio20();
             libro1.titulo = "La divina comedia";
             libro1.autor = "Dante Alighieri";
 
             // objeto2
-            Libro libro2 = new Libro();
+            Ejercicio20 libro2 = new Ejercicio20();
             libro2.titulo = "La teogonía";
             libro2.autor = "Hesíodo";
 
             // objeto 3
-            Libro libro3 = new Libro();
+            Ejercicio20 libro3 = new Ejercicio20();
             libro3.titulo = "La odisea";
             libro3.autor = "Homero";
 
