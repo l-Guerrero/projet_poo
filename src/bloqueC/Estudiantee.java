@@ -5,6 +5,7 @@ public class Estudiantee {
     String codigo;
     int semestre;
 
+
     // Ejercicio 29
     // Constructor vacio
     public Estudiantee(){
