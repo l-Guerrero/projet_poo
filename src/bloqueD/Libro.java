@@ -13,9 +13,23 @@ public class Libro {
         this.titulo = tituloparametro;
         this.autor = autorparametro;
     }
+    // Ejercicio 33 crear constuctor copia
+    public Libro(Libro otroLibro) {
+        this.titulo = otroLibro.titulo;// aqui la copia
+        this.autor = otroLibro.autor;
+    }
 }
        class MainLibro{
         public static void main(String[]args) {
+            // Ejercicio 34
+            // libro original
+            Libro original = new Libro("Noche negra", "Pilar Quintana");
+            // copia
+            Libro copia = new Libro(original);
+            System.out.println("Datos del libro original");
+            System.out.println("Título: " + original.titulo + " Autor: " + original.autor);
+            System.out.println("Datos de la copia del libro");
+            System.out.println("Título: " + copia.titulo + " Autor: " + copia.autor);
 
             // Ejercicio 25 - objeto con cada constructor
             // constructor vacio

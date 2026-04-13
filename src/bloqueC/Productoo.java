@@ -102,7 +102,7 @@ class MainProductoo {
 
         car.vender(150);
         car.reabastecer(400);
-        
+
         // resultado final
         System.out.println("Inventario final");
         m1.mostrarProducto();
