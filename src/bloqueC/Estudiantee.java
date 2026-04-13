@@ -1,12 +1,25 @@
 package bloqueC;
 
-import bloqueB.Estudianteb;
-
-public class Ejercicio17 {
+public class Estudiantee {
     String nombre;
     String codigo;
     int semestre;
 
+    // Ejercicio 29
+    // Constructor vacio
+    public Estudiantee(){
+    }
+    // constructor con nombre y codigo
+    public Estudiantee(String nombre, String codigo){
+        this.nombre = nombre;
+        this.codigo = codigo;
+    }
+    // constructor con nombre, codigo y semestre
+    public Estudiantee(String nombre, String codigo,int semestre){
+        this.nombre = nombre;
+        this.codigo = codigo;
+        this.semestre = semestre;
+    }
     public void mostrarInfo() {
         System.out.println("informacion del estudiante");
         System.out.println("Nombre:" + nombre);
@@ -20,14 +33,22 @@ public class Ejercicio17 {
         System.out.println ( nombre + " " + "Ha pasado al semestre" +" " + semestre);
      }
 }
-    class MainEjercicio17 {
+    class MainEstudiantee {
         public static void main(String[] args) {
-
-            Ejercicio17 Alumno = new Ejercicio17();
+            // constructor vacio
+            Estudiantee Alumno = new Estudiantee();
             Alumno.nombre = "Yubiris Guerrero";
             Alumno.codigo = "S1991-034";
             Alumno.semestre = 5;
             Alumno.mostrarInfo();
+
+            // constructor con nombre y codigo
+            Estudiantee alumno2 = new Estudiantee("Manuel reyes", "R2026-002");
+            alumno2.mostrarInfo();
+
+            // constructor completo
+            Estudiantee alumno3 = new Estudiantee("Ana Martinez", "M2007-107", 6);
+            alumno3.mostrarInfo();
 
             // Se hace el cambio de semestre
             Alumno.cambiarSemestre(6);
