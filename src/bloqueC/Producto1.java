@@ -1,8 +1,6 @@
 package bloqueC;
 
-import bloqueB.Productob;
-
-public class Ejercicio15 {
+public class Producto1 {
     String nombre;
     double  precio;
     int stock;
@@ -24,23 +22,23 @@ public class Ejercicio15 {
     }
     }
 }
-class MainEjercicio15 {
+class MainProducto1 {
     public static void main(String[] args) {
 
         // Objeto 1
-        Ejercicio15 m1 = new Ejercicio15();
+        Producto1 m1 = new Producto1();
         m1.nombre = "mesas";
         m1.precio = 350000;
         m1.stock = 25;
 
         // Objeto2
-        Ejercicio15 c2 = new Ejercicio15();
+        Producto1 c2 = new Producto1();
         c2.nombre = "cuadernos";
         c2.precio = 2500;
         c2.stock = 80;
 
         // Objeto3
-        Ejercicio15 b3 = new Ejercicio15();
+        Producto1 b3 = new Producto1();
         b3.nombre = "bicicletas";
         b3.precio = 150000;
         b3.stock = 15;

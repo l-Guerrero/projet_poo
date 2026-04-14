@@ -1,8 +1,6 @@
 package bloqueC;
 
-import bloqueB.CuentaBancariab;
-
-public class Ejercicio13 {
+public class CuentaBancaria {
     String numero;
     String titular;
     double saldo;
@@ -19,16 +17,16 @@ public class Ejercicio13 {
          saldo = saldo + valor;
      }
      }
-class MainEjercicio13 {
+class MainCuentaBancaria {
     public static void main(String[]args){
         // cuenta de Camila
-        Ejercicio13 c1 = new Ejercicio13();
+        CuentaBancaria c1 = new CuentaBancaria();
         c1.titular = "Camila Lopez";
         c1.numero = "987-3334-234";
         c1.saldo = 250000;
 
         // Cuenta de Miguel
-        Ejercicio13 c2 = new Ejercicio13();
+        CuentaBancaria c2 = new CuentaBancaria();
         c2.titular = "Miguel Mestra";
         c2.numero = "129-8057-011";
         c2.saldo = 345000;

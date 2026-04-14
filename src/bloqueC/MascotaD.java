@@ -1,8 +1,6 @@
 package bloqueC;
 
-import bloqueB.Mascotab;
-
-public class Ejercicio18 {
+public class MascotaD {
     String nombre;
     String especie;
     int edad;
@@ -21,11 +19,11 @@ public class Ejercicio18 {
     }
 }
 
-    class MainEjercicio18 {
+    class MainMascotaD {
         public static void main(String[]args)
         {
             // Creo el objeto
-            Ejercicio18 unaMascota = new Ejercicio18();
+            MascotaD unaMascota = new MascotaD();
             unaMascota.nombre = "Sasha";
             unaMascota.especie = "perro";
             // estado inicial
