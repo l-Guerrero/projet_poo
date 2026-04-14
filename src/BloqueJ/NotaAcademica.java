@@ -24,8 +24,6 @@ public class NotaAcademica {
         public static void main(String[] args) {
 
             NotaAcademica clase = new NotaAcademica("Algoritmos y programación", 4.5, 2.8, 4.0);
-
-
             double finalMateria = clase.calcularDefinitiva();
             System.out.println("En la asignatura " + clase.asignatura + " la nota definitiva es: " + finalMateria);
         }
