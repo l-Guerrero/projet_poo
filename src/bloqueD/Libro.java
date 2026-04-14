@@ -13,7 +13,7 @@ public class Libro {
         this.titulo = tituloparametro;
         this.autor = autorparametro;
     }
-    // Ejercicio 33 crear constuctor copia
+    // Ejercicio 33 crear constructor copia
     public Libro(Libro otroLibro) {
         this.titulo = otroLibro.titulo;// aqui la copia
         this.autor = otroLibro.autor;
