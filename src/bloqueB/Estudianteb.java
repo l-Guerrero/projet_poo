@@ -7,6 +7,12 @@ public class Estudianteb {
     String codigo;
     int semestre;
 
+    // Ejercicio 71 constructor con parametros
+    public Estudianteb(String nombre, String codigo, int semestre){
+        this.nombre = nombre;
+        this.codigo = codigo;
+        this.semestre = semestre;
+    }
     public void mostrarInfo() {
         System.out.println("informacion del estudiante");
         System.out.println("Nombre:" + nombre);
@@ -18,11 +24,7 @@ public class Estudianteb {
     class MainEstudianteb {
     public static void main(String[]args){
 
-      Estudianteb Alumno = new Estudianteb();
-
-      Alumno.nombre = "Yubiris Guerrero";
-      Alumno.codigo = "S1991-034";
-      Alumno.semestre = 5;
-      Alumno.mostrarInfo();
+      Estudianteb alumno = new Estudianteb("Yubiris Guerrero", "S1991-034", 5);
+      alumno.mostrarInfo();
     }
   }
