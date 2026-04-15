@@ -1,7 +1,5 @@
 package bloqueC;
 
-import bloqueB.Vehiculob;
-
 public class Vehiculoc {
     String marca;
     String modelo;
