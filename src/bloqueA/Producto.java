@@ -5,12 +5,27 @@ public class Producto {
     double  precio;
     int stock;
 
-    public void mostrarProducto(){
-        System.out.println("Detalles del producto:");
-        System.out.println("Nombre:" + nombre);
-        System.out.println("Precio:" + precio);
-        System.out.println("Stock:" + stock);
+        public Producto(String nombre, double precio, int stock) {
+            this.nombre = nombre;
+            this.precio = precio;
+            this.stock = stock;
+        }
+        // Ejercicio 72
+        public static Producto crearProducto(String nombre, double precio, int stock) {
+            return new Producto(nombre, precio, stock);
+        }
+        public void mostrarProducto() {
+            System.out.println("Producto: " + nombre + " Precio: $" + precio + "  Stock: " + stock);
+        }
+
+        public static void main(String[] args) {
+            Producto miItem = Producto.crearProducto("Laptop", 1200.50, 10);
+
+            miItem.mostrarProducto();
+        }
     }
 
-}
+
+
+
 
