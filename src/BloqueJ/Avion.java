@@ -13,7 +13,7 @@ public class Avion {
 
         // sumar pasajeros
         public void abordar(int cantidad) {
-            this.pasajeros += cantidad;
+            this.pasajeros = pasajeros + cantidad;
             System.out.println("Han subido " + cantidad + " pasajeros nuevos al vuelo de " + aerolinea);
         }
     }
